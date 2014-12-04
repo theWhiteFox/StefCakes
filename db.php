@@ -8,7 +8,7 @@ require 'config.php';
 
 function connect($config) {
    try {
-      $conn = new \PDO('mysql:host='.$config['HOST'] .';dbname=' . $config['DB'], $config['DB_USERNAME'], $config['DB_PASSWORD']);
+      $conn = new \PDO('mysql:host=' . $config['HOST'] . ';dbname=' . $config['DB'], $config['DB_USERNAME'], $config['DB_PASSWORD']);
       $conn->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);      
 
       return $conn;
