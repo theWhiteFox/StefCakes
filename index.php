@@ -1,5 +1,5 @@
 <?php
-echo 'Web site';
+echo 'My Blog';
 /* Create a db
  * Create a table posts
  * Connect to the DB
