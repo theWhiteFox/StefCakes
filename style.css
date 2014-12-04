@@ -12,15 +12,15 @@ form textarea { height:300px;}
 label { display: block;padding:.3%; }
 input[name="SubmitPost"] {float: right;margin-right:-.1%;}
 .odd{background-color:#7AA556 }
-article{background-color:#9F3815 ;padding:.8%;border-bottom: 1px dashed black;}
+article{background-color:#9F3815 ;padding:.8%;border-bottom: .1em dashed black;margin-bottom: .1em;}
 hr {border:dashed #009999; border-width:1px 0 0 0; height:0;line-height:0px;font-size:0;margin:0;padding:0;}
 
 a:link {
-color:#D0B862;
+color:#AECC98;
 }
 
 a:visited {
-color:#AECC98;
+color:#D0B862;
 }
 a:hover {
 color: #CEC38B;
