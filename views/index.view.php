@@ -2,8 +2,7 @@
 <?php foreach ($posts as $post) : ?>
    <article>
       <h2><a href="single.php?post_id=<?= $post['post_id']; ?>"><?= $post['title']; ?></a></h2> 
-      <div class="body"><?= $post['body']; ?></div>
-      <p><button onclick="">Delete</button></p>
+      <div class="body"><?= $post['body']; ?></div>      
    </article>
 <?php endforeach; ?>
 <div><a href="/admin/">Post</a><br>
