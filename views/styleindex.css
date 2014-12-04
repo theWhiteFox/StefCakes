@@ -4,7 +4,7 @@
    font-family: Source Code Pro;
 }
 h1 {text-align: center;background-color: gold;padding:2%;}
-.container {width:600px; margin:0 auto;background-color: silver;}
+.container {width:600px; margin:0 auto;background-color: silver;padding: .2%;}
 form ul { padding: 0;}
 form li { list-style: none; }
 form input[type=text], form textarea { margin-bottom: 1.2em;width:97%;margin-left:1%;}
