@@ -3,6 +3,6 @@
    <article>
       <h2><a href="single.php?post_id=<?= $post['post_id']; ?>"><?= $post['title']; ?></a></h2> 
       <div class="body"><?= $post['body']; ?></div>
-      <div>Link to Admin</div>
+      <div><a href="">Link to Admin</a></div>
    </article>
 <?php endforeach; ?> 
