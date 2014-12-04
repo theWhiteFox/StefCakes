@@ -17,3 +17,4 @@
    <p><?= $status; ?></p>
    <?php endif; ?>
 </form>
+<div><a href="../">Post</a></div>
