@@ -3,7 +3,7 @@
    font-size: 100%;
    font-family: Source Code Pro;
 }
-h1 {text-align: center;background-color: gold;padding:2%;}
+h1 {text-align: center;background-color: goldenrod;padding:2%;}
 .container {width:600px; margin:0 auto;background-color: silver;padding: .3%}
 form ul { padding: 0;}
 form li { list-style: none; }
@@ -11,6 +11,20 @@ form input[type=text], form textarea { margin-bottom: 1.2em;width:98.7%;margin-l
 form textarea { height:300px;}
 label { display: block;padding:.3%; }
 input[name="SubmitPost"] {float: right;margin-right:-.1%;}
-.odd{background-color:azure }
-article{background-color:#94BAE7 ;padding:.8%;border-bottom: 1px dashed black;}
+.odd{background-color:#7AA556 }
+article{background-color:#9F3815 ;padding:.8%;border-bottom: 1px dashed black;}
 hr {border:dashed #009999; border-width:1px 0 0 0; height:0;line-height:0px;font-size:0;margin:0;padding:0;}
+
+a:link {
+color:#D0B862;
+}
+
+a:visited {
+color:#AECC98;
+}
+a:hover {
+color: #CEC38B;
+}
+a:active {
+color: #5F414B;
+}
