@@ -5,4 +5,4 @@
       <div class="body"><?= $post['body']; ?></div>      
    </article>
 <?php endforeach; ?>
-<div><a href="/admin/">Admin</a></div>
+<div><a href="/admin/">Admin</a><a href="https://github.com/Stevo5o/StephCakeBlog">GitHub Code</a></div>
