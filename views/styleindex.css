@@ -11,3 +11,4 @@ form input[type=text], form textarea { margin-bottom: 1.2em;width:97%;margin-lef
 form textarea { height:300px;}
 label { display: block;padding:.5%; }
 input[name="SubmitPost"] {float: right;margin-right:-.1%;}
+article{background-color: white;}
