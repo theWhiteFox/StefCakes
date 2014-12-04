@@ -17,4 +17,4 @@
    <p><?= $status; ?></p>
    <?php endif; ?>
 </form>
-<div><a href="../">Post</a></div>
+<div><a href="../">Posts</a></div>
