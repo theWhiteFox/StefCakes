@@ -10,6 +10,6 @@
    <body>
    <div class="container">
     	<?php include($path); ?>
-   </div>
+   </div>  
    </body>
 </html>

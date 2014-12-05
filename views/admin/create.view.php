@@ -21,4 +21,5 @@
    </form>
 </article>
 <p><button onclick="location.href = '../'">Posts</button></p>
+ <div align="center"><img src="../img/10.jpg" class="bg"></div>
 
