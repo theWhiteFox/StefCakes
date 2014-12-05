@@ -12,18 +12,21 @@ form textarea { height:300px;}
 label { display: block;padding:.3%; }
 input[name="SubmitPost"] {float: right;margin-right:-.1%;}
 .odd{background-color:#7AA556 }
-article{background-color:#9F3815 ;padding:.8%;border-bottom: 1.5px dashed black;margin-bottom: 1px;}
+article{background-color:#9F3815 ;padding:.8%;margin-bottom: 1px;}
 hr {border:dashed #009999; border-width:1px 0 0 0; height:0;line-height:0px;font-size:0;margin:0;padding:0;}
-
+#posted{background-color: #DDE4C5; padding: .5em;}
+#post{background-color: #C6C090; padding:.5em;}
+.body{padding:.5em}
 a:link {
-color:#AECC98;
+color:#2D4756;
+text-decoration:none;
 }
 
 a:visited {
-color:#D0B862;
+color:#8B542B;
 }
 a:hover {
-color: #CEC38B;
+color: #743F45;
 }
 a:active {
 color: #5F414B;
