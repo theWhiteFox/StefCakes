@@ -62,4 +62,5 @@ button{border: 2px solid white;
                                        padding:4px;
                                        background: rgba(255,255,255,0.6);}
 
-.dateTime{margin-left:65%;text-align: right}
+.date{margin-left:65%;text-align: right}
+.postBy{margin-left:65%;text-align: right}
