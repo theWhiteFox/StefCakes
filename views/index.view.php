@@ -6,7 +6,7 @@ foreach ($posts as $post) : ?>
          <div id="post">
             <h2><a href="single.php?post_id=<?= $post['post_id']; ?>"><?= $post['title']; ?></a></h2> 
             <div class="body"><?= $post['body']; ?></div> 
-            <div class="dateTime"><?= date('d/m/Y', strtotime($post['date_time'])); ?></div>
+            <div class="dateTime"><?= date('d/m/Y', strtotime($post['date'])); ?></div>
          </div>
       </div>
    </article>
