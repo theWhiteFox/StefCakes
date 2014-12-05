@@ -7,17 +7,57 @@ h1 {text-align: center;background-color: goldenrod;padding:2%;}
 .container {width:600px; margin:0 auto;background-color: silver;padding: .3%}
 form ul { padding: 0;}
 form li { list-style: none; }
-form input[type=text], form textarea { margin-bottom: 1.2em;width:98.7%;margin-left:.2%;}
+form input[type=text], form textarea { margin-bottom: 1.2em;width:97.5%;margin-left:.2%; border: 2px solid white; 
+                                       -webkit-box-shadow: 
+                                          inset 0 0 8px  rgba(0,0,0,0.1),
+                                          0 0 16px rgba(0,0,0,0.1); 
+                                       -moz-box-shadow: 
+                                          inset 0 0 8px  rgba(0,0,0,0.1),
+                                          0 0 16px rgba(0,0,0,0.1); 
+                                       box-shadow: 
+                                          inset 0 0 8px  rgba(0,0,0,0.1),
+                                          0 0 16px rgba(0,0,0,0.1); 
+                                       padding:4px;
+                                       background: rgba(255,255,255,0.7);}
 form textarea { height:300px;}
-label { display: block;padding:.3%; }
-input[name="SubmitPost"] {float: right;margin-right:-.1%;}
+label{ display: block;padding:1%;background-color:#7AA556;margin-bottom: 0.2em; }
+input[name="SubmitPost"] {float: right;margin-right:-.1%;margin-bottom: 1.2em;margin-left:.2%; border: 2px solid white; 
+                                       -webkit-box-shadow: 
+                                          inset 0 0 8px  rgba(0,0,0,0.1),
+                                          0 0 16px rgba(0,0,0,0.1); 
+                                       -moz-box-shadow: 
+                                          inset 0 0 8px  rgba(0,0,0,0.1),
+                                          0 0 16px rgba(0,0,0,0.1); 
+                                       box-shadow: 
+                                          inset 0 0 8px  rgba(0,0,0,0.1),
+                                          0 0 16px rgba(0,0,0,0.1); 
+                                       padding:4px;
+                                       background: rgba(255,255,255,0.6);}
+input[name="SubmitPost"]:hover {border: 2px solid black; 
+                                background-color: #C0C0C0;}
+
 .odd{background-color:#7AA556 }
 article{background-color:#9F3815 ;padding:.8%;margin-bottom: 1px;}
 hr {border:dashed #009999; border-width:1px 0 0 0; height:0;line-height:0px;font-size:0;margin:0;padding:0;}
 #posted{background-color: #DDE4C5; padding: .5em;}
-#post{background-color: #CFC7BC; padding:.5em;}
+#post{background-color: #E2C4B9; padding:.5em;}
 .body{padding:.5em}
 a:link {color:#2D4756;text-decoration:none;}
 a:visited {color:#8B542B;}
 a:hover {color: #743F45; text-decoration: underline;}
 a:active {color: #5F414B;}
+
+button:hover {border: 2px solid black; 
+                                background-color: #C0C0C0;}
+button{border: 2px solid white; 
+                                       -webkit-box-shadow: 
+                                          inset 0 0 8px  rgba(0,0,0,0.1),
+                                          0 0 16px rgba(0,0,0,0.1); 
+                                       -moz-box-shadow: 
+                                          inset 0 0 8px  rgba(0,0,0,0.1),
+                                          0 0 16px rgba(0,0,0,0.1); 
+                                       box-shadow: 
+                                          inset 0 0 8px  rgba(0,0,0,0.1),
+                                          0 0 16px rgba(0,0,0,0.1); 
+                                       padding:4px;
+                                       background: rgba(255,255,255,0.6);}

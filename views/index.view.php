@@ -1,4 +1,4 @@
-<h1>SteJ Blogging</h1>
+<h1><?php echo $name?> Blogging</h1>
 <?php $c = true;
 foreach ($posts as $post) : ?>
    <article class="<?= ($c = !$c) ? 'odd' : NULL ?>">

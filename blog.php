@@ -2,7 +2,7 @@
 
 require 'functions.php';
 require 'db.php';
-// Connect to the DB
+// Connect to the DB with full path
 $conn = Blog\DB\connect($config);
 
 // change to 404
