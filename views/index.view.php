@@ -4,7 +4,7 @@ foreach ($posts as $post) : ?>
    <article class="<?= ($c = !$c) ? 'odd' : NULL ?>">     
          <div id="post">
             <h2><a href="single.php?post_id=<?= $post['post_id']; ?>"><?= $post['title']; ?></a></h2> 
-            <div class="body"><?= ellipsis($post['body'],200); ?></div>            
+            <div class="body"><?= ellipsis($post['body'],100); ?></div>            
             <div class="date"><?= "Post By: $name " ?><?= date('d/m/Y', strtotime($post['date'])); ?></div>
          </div>    
    </article>
