@@ -1,14 +1,12 @@
 <h1><?php echo $name?> Blogging</h1>
 <?php $c = true;
 foreach ($posts as $post) : ?>
-   <article class="<?= ($c = !$c) ? 'odd' : NULL ?>">
-      <div id="posted">
+   <article class="<?= ($c = !$c) ? 'odd' : NULL ?>">     
          <div id="post">
             <h2><a href="single.php?post_id=<?= $post['post_id']; ?>"><?= $post['title']; ?></a></h2> 
             <div class="body"><?= $post['body']; ?></div>            
             <div class="date"><?= "Post By: $name " ?><?= date('d/m/Y', strtotime($post['date'])); ?></div>
-         </div>
-      </div>
+         </div>    
    </article>
 <?php endforeach; ?>
 <div><p><button onclick="location.href = 'admin/'">Post</button></p>
