@@ -17,17 +17,7 @@ hr {border:dashed #009999; border-width:1px 0 0 0; height:0;line-height:0px;font
 #posted{background-color: #DDE4C5; padding: .5em;}
 #post{background-color: #CFC7BC; padding:.5em;}
 .body{padding:.5em}
-a:link {
-color:#2D4756;
-text-decoration:none;
-}
-
-a:visited {
-color:#8B542B;
-}
-a:hover {
-color: #743F45;
-}
-a:active {
-color: #5F414B;
-}
+a:link {color:#2D4756;text-decoration:none;}
+a:visited {color:#8B542B;}
+a:hover {color: #743F45; text-decoration: underline;}
+a:active {color: #5F414B;}
