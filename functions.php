@@ -19,7 +19,7 @@ function view($path, $data = null)
  
 }
 
-// shorting text on index blog posts
+// shorting text on index blog posts page
 function ellipsis($text, $max=100, $append='&hellip;')
 {
     if (strlen($text) <= $max) return $text;

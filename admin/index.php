@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
    if (empty($title) || empty($body)) {
       $data['status'] = 'Please fill out both inputs.';
    } else {
-      // then create row in table
+      //  use query then create row in table
       Blog\DB\query(
               "INSERT INTO posts(title, body, date) VALUES(:title, :body, :date)", 
               array('title' => $title, 'body' => $body, 'date' => $date), $conn);

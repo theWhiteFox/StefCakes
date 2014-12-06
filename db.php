@@ -4,7 +4,7 @@ namespace Blog\DB;
 
 require 'config.php';
 
-# mysql_connect('localhost', 'username', 'password');
+# PDO connect('host', 'username', 'password');
 
 function connect($config) {
    try {
@@ -17,6 +17,7 @@ function connect($config) {
    }
 }
 
+// 1. prepared statement 2. bind 3. execute - no SQL injection
 function query($query, $bindings, $conn) {
    $stmt = $conn->prepare($query);
    $stmt->execute($bindings);
@@ -24,6 +25,7 @@ function query($query, $bindings, $conn) {
    return ($stmt->rowCount() > 0) ? $stmt : false;
 }
 
+// get posts limit to ten
 function get($tableName, $conn, $limit = 10) {
    try {
       $result = $conn->query("SELECT * FROM $tableName ORDER BY post_id DESC LIMIT $limit");
@@ -34,6 +36,7 @@ function get($tableName, $conn, $limit = 10) {
    }
 }
 
+// get post id to display single post
 function get_by_id($post_id, $conn) {
    try {
      $query = query(
