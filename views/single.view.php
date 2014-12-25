@@ -5,4 +5,3 @@
    </div>
 </article>
 <p><button onclick="history.go(-1);">Back</button></p>
-<div align="center"><img src="img/1.jpg" class="bg"></div>
