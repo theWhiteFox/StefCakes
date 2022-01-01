@@ -1,6 +1,6 @@
-StephCakeBlog
+StephCakes Blog
 =============
 
-Basic Blog - PHP5, MySQL, HTML5, CSS, MVC
+ PHP, MySQL, HTML5, CSS, MVC
 
 
